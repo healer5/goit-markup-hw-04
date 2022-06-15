@@ -363,12 +363,19 @@ margin-left: 30px;
 }
 
 .team-soc-icon{
-    fill:var(--accent-color);
+    fill:#AFB1B8;
 }
 
 .team-soc-item:first-child{
     margin-left: 0;
 }
+
+.team-soc-link:hover, 
+.team-soc-link:focus {
+    background-color: var(--accent-color);
+    fill:--primary-bg-color;
+}
+
 /* Footer */
 
 footer{
