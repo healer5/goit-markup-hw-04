@@ -101,6 +101,16 @@ nav{
     align-items: center;
 }
 
+.mail-icon,
+.phone-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.site-nav .current {
+    color: var(--action-color);
+  }
+
 .site-nav{
     display: flex;
     margin:0; 
