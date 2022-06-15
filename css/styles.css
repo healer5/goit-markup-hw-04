@@ -101,6 +101,25 @@ nav{
     align-items: center;
 }
 
+.contact-item:first-of-type{
+    margin-right: 50px;
+}
+
+.contact-mail,
+.contact-phone {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+  color: var(--secondary-text-color);
+}
+
+.contact-mail:hover,
+.contact-phone:hover,
+.contact-mail:focus,
+.contact-phone:focus {
+  color: var(--accent-color);
+}
+
 .mail-icon,
 .phone-icon {
   fill: currentColor;
@@ -108,7 +127,7 @@ nav{
 }
 
 .site-nav .current {
-    color: var(--action-color);
+    color: var(--accent-color);
   }
 
 .site-nav{
