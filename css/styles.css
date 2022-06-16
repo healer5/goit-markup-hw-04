@@ -101,7 +101,7 @@ nav{
     align-items: center;
 }
 
-.contact-item:first-of-type{
+.email{
     margin-right: 50px;
 }
 
@@ -123,8 +123,8 @@ nav{
 
 .mail-icon,
 .phone-icon {
-  fill: currentColor;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .site-nav.current {
