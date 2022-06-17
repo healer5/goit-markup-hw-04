@@ -464,6 +464,10 @@ footer{
     padding: 60px 0;
     background-color: var(--secondary-bg-color);
 }
+.footer-flex{
+    display: flex;
+    align-items: baseline;
+}
 .footer-icon{
     padding-bottom: 20px;
 }
