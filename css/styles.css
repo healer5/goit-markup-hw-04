@@ -416,13 +416,23 @@ margin-left: 30px;
 }
 
 .clients-icon {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
-.clients .link:hover,
+/* .clients .link:hover,
 .clients .link:focus {
   border: 1px solid var(--accent-color);
   color: var(---accent-color);
   outline: none;
+} */
+
+.clients-item:hover, 
+.clients-item:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.clients-item:hover .clients-icon, 
+.clients-item:focus .clients-icon{
+    fill:var(---accent-color);
 }
 
 /* Footer */
