@@ -412,18 +412,17 @@ margin-left: 30px;
   align-items: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  color: var(---accent-color);
-}
-.clients .link:hover,
-.clients .link:focus {
-  border-color: var(--accent-color);
-  color: var(---accent-color);
+  color: #AFB1B8;
 }
 
 .clients-icon {
   fill: currentColor;
 }
-
+.clients .link:hover,
+.clients .link:focus {
+  color: var(---accent-color);
+  border: 1px solid var(--accent-color);
+}
 
 /* Footer */
 .footer {
