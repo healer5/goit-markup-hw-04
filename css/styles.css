@@ -61,7 +61,7 @@ ul{
     
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -173,7 +173,6 @@ nav{
 }
 
 .contact-nav .list{
-    /* display: block; */
     display: flex;
     padding: 32px 0; 
     color: var(--secondary-text-color);
@@ -396,95 +395,35 @@ margin-left: 30px;
 .team-soc-link:focus .team-soc-icon{
     fill:var(--primary-bg-color);
 }
-/* .clients{
-    margin-top: 0;
-    margin-bottom: 50px;
-    padding-top: 94px;
+.clients {
+  padding: 94px 0;
 }
-.clients-title { 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-  
-    color: var(--primary-text-color);
-  }
-  
-  .clients-list {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .clients-item {
-    width: 170px;
-    height: 92px;
-    margin-left: 30px;
-  }
-  
-  .clients-item:first-child {
-    margin-left: 0;
-  }
-  
-  .clients-link {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  
-    width: 100%;
-    height: 100%;
-  
-    border-radius: 4px;
-    color: #AFB1B8;
-    border: 1px solid  #AFB1B8;
-    ;
-  }
-  
-  .clients-icon {
-    fill: currentColor;
-  }
-  
-  .clients-link:hover,
-  .clients-link:focus {
-    color: var(--accent-color);
-    border: var(--accent-color);
-  } */
 
-  .clients {
-    padding: 94px 0;
-  }
-  .clients-title {
-    font-size: 36px;
-    line-height: 1.67;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  .clients-list {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .clients .link {
-    display: flex;
-    width: 170px;
-    height: 92px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    color: #AFB1B8;
-  }
-  .clients .link:hover,
-  .clients .link:focus {
-    border-color: var(--accent-color);
-    color: var(---accent-color);
-  }
-  
-  .clients-icon {
-    fill: currentColor;
-  }
-  
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients .link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  color: #AFB1B8;
+}
+.clients .link:hover,
+.clients .link:focus {
+  border-color: var(--accent-color);
+  color: var(---accent-color);
+}
+
+.clients-icon {
+  fill: var(---accent-color);
+}
+
 
 /* Footer */
 .footer {
