@@ -428,6 +428,8 @@ margin-left: 30px;
 .clients-item:hover, 
 .clients-item:focus {
   border: 1px solid var(--accent-color);
+  color: var(---accent-color);
+  outline: none;
 }
 
 .clients-item:hover .clients-icon, 
